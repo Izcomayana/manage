@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-image: url('/images/bg-tablet-pattern.svg');
+}
+
+    .container-1-2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+/* header */
+
+ header {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0px;
+            
+        }
+
+            ul {
+                display: flex;
+                list-style: none;
+                justify-content: center; 
+            }
+
+                li {
+                    margin: 0px 10px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: rgb(0, 0, 70);
+                    padding: 5px 0px;
+                    transition: background 500ms ease-in-out;
+                }
+                
+                a:hover,
+                a:focus {
+                    color: rgb(161, 161, 161);
+                }
+
+            .start-button {
+                background-color: rgb(238, 116, 85);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 50px;
+                border: 0px;
+                margin: 0px;
+                text-decoration: none;
+                transition: background 100ms ease-in-out;
+            }
+
+            .start-button:hover,
+            .start-button:focus {
+                background-color: rgb(252, 158, 158);
+                border: 0px;
+                margin: 0px;
+                text-decoration: none;
+            }
+
+/* containers */
+
+        .container-1 {
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+        }
+
+            .container-1A {
+                width: 45%;
+                margin: 50px 0px;
+            }
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 45px;
+                    color: rgb(0, 0, 70);
+                }
+
+                .manage-1 {
+                    margin: 30px 0px;
+                    line-height: 30px;
+                }
+
+            .container-1B {
+                width: 40%;
+            }
+
+                .illustration-img {
+                    width: 140%;
+                    height: 500px;
+                }
+
+        .container-2 {
+            display: flex;
+            flex-direction: row;
+            margin: 50px 0px;
+            padding: 0;
+        }
+
+        .container-2A {
+            width: 45%;
+        }
+
+            h3 {
+                font-weight: 600;
+                font-size: 40px;
+                color: rgb(0, 0, 70);
+            }
+
+        .container-2B {
+            width: 60%;
+            margin-left: 90px;
+        }
+
+            .manage-2 {
+                display: flex;
+                margin: 0;
+            }
+
+            .numbers {
+                background-color: rgb(253, 86, 74);
+                padding: 5px 30px;
+                margin-right: 30px;
+                height: min-content;
+                border-radius: 50px;
+            }
+
+            h4 {
+                color:  rgb(0, 0, 70);
+                font-size: 18.6px;
+            }
+
+            .manage-p {
+                margin: 15px 0px;
+                line-height: 30px;
+            }
+
+            .manage-3 {
+                display: flex;
+                margin: 20px 0px;
+            }
+
+/* testimonies */
+
+    .testimonies-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .testimonies {
+            display: flex;
+            margin-top: 135px;
+            margin-bottom: 50px;
+        }
+
+            .user {
+                background-color: rgb(250, 250, 250);
+            }
+
+                .user-img {
+                    margin-top: -70px;
+                }
+
+                .user-name {
+                    margin: 20px 0px;
+                }
+
+                .user-opinions {
+                    line-height: 30px;
+                }
+
+            .user-2 {
+                background-color: rgb(250, 250, 250); 
+                margin: 0px 25px;
+            }
+
+/* starters */
+
+    .starters {
+        display: flex;
+        background-color: rgb(255, 194, 181);
+        justify-content: space-between;
+        padding: 70px 150px;
+        margin-top: 100px;
+        
+    }
+
+        .simplify {
+            color: white;
+        }
+
+        .button-house {
+            padding: 20px 0px;
+        }
+    
+            .starters-button {
+                background-color: rgb(255, 255, 255);
+                color: rgb(238, 116, 85);
+                padding: 10px 20px;
+                border-radius: 50px;
+                border: 0px;
+                margin: 0px;
+                text-decoration: none;
+                transition: background 100ms ease-in-out;
+            }
+
+            .starters-buton:focus,
+            .starters-button:hover {
+                color: rgb(252, 158, 158);
+                border: 0px;
+                margin: 0px;
+                text-decoration: none;
+            }
+
+/* footer */
+
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(29, 30, 37)
+    }
+
+        .footer-1 {
+            margin: 40px 0px;
+        }
+
+            .logos {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 80px;
+            }
+
+        .footer-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 40px 0px;
+        }
+
+            .footer-links {
+                color: white;
+            }
+
+            .footer-links:hover {
+                color: rgb(238, 116, 85);
+            }
+
+        .footer-3 {
+            display: flex;
+            flex-direction: column;
+            margin: 40px 0px;
+        }
+
+        .footer-4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 40px 0px;
+        }
+
+            .texts {
+                padding: 12px 20px;
+                border-radius: 50px;
+            }
+
+            .copyright {
+                display: flex;
+                padding-left: 10px;
+                color: rgb(77, 77, 77);
+            }
+
+            @media (max-width: 750px) {
+                .container-1 {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            
+
+
